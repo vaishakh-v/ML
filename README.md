@@ -1,76 +1,92 @@
 # ChakGo_Scan
-Machine learning for tinker hubs build from home
+Machine learning for tinkerhub build from home
 
 ![image](https://user-images.githubusercontent.com/72149021/119386009-972ff500-bce4-11eb-95b5-292eccbd400a.png)
 
 ### Table of Contents
 
-
-- [Description](#description)
-- [How To Use](#how-to-use)
+- [Project name](#project-name)
+- [Team members](#team-members)
+- [Team id](#team-id)
+- [Link to product walkthrough](#link-to-product-walkthrough)
+- [How it works](#how-it-works)
+- [Libraries used](#libraries-used)
+- [How to configure](#how-to-configure)
+- [How to run](#how-to-run)
 - [References](#references)
-- [Author Info](#author-info)
 
 ---
-
-## Description
+# Project Name
+### ChakGo_Scan
 
 This is a project for Build From Home organized by Tinkerhub.
-Our team members are given here [Author Info](#author-info).This project contains a model developed by deeplearing using tensorflow and keras.
+This project contains a model developed by deeplearing using tensorflow and keras.
 The model is pretrained to identify between Mangoes and Jackfruit images.The name of the project is Chak(CHAKka)Go(manGO)_Scan.
 
+---
+# Team members
+- Vaishakh v [vaishakh-v](https://github.com/vaishakh-v)
+- Sudarsan R Mohan [SUDARSAN-RM](https://github.com/SUDARSAN-RM)
+- Darshan S [darshanchaithram](https://github.com/darshanchaithram)
+---
+# Team id
+- BFH/recaLYum338MTMIJQ/2021
+---
+# Link to product walkthrough
+### www.test.com
+---
+# How it works
+The project is divided into 3 colab files. The first one, namely 'Image dataset using selenium' is used to generate dateset from the internet and to scrape the images as per our criteria.
+- We have used selenium framework to generate images.
+- Parameters are passed as a CSV file.
+- The downloaded images are scrapped as 224 x 224 and ensured to be RGB colourspace.
+- We have also included a feature to add and scrape images from Google drive.
+- All these images can be downloaded as a zip file.
 
-#### Technologies
+The second file, namely 'Model training' is used to train our model with our dataset.
+- Import dataset from Google drive.
+- Grouped the images as training dataset and validation dataset.
+- Data Augmentation technique is used to enlarge our dataset size.
+- We imported the CNN model 'VGG16' from Tensorflow using keras library.
+- Since this is a Binary classification, we need not train all the layers of 'VGG16'.
+- Parameters are added to the model as per the criteria.
+- Model is trained using our Augmented dataset with 10 Epochs.
+- Trained model is saved into the Google drive.
 
-- Google Colab
-- Tensorflow
-- Keras
-- GitHub 
+The final file, namely 'Final Project' is where the user tests an image
+- The model is imported from Google drive.
+- The user can upload an image and predict if the image contain "Chakka" or "Manga".
+- The results shows the uploaded image and the fruit type.
+---
+# Libraries used
 
-[Back To The Top](#read-me-template)
+- Tensorflow - 2.4.1
+- Matplotlib - 3.2.2
+- tensorflow.keras
+- Pandas
+- PIL
+- Selenium
+- Requests
+- Sys
+- tensorflow.keras.preprocessing.image
 
 ---
-
-## How To Use
-
-#### Installation
-
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
+# How to configure
+- Open the 'Final project.ipynb' in a jupyter notebook.
+- Mount your google drive.
 ---
-
-## References
+# How to run
+- Open the 'Final project.ipynb'
+- Load the model from Google drive.
+- Add a test image.
+- Pass the image as a parameter to the model.
+- Chakka/Manga/Sorry I cannot identify this image, as well as the upoaded picture will be displayed.
+---
+# References
 - [towardsdatascience](https://towardsdatascience.com/pytorch-vision-binary-image-classification-d9a227705cf9)
 - [w3schools](https://www.w3schools.com/python/python_variables.asp)
 - [kaggle jackfruit](https://www.kaggle.com/darshanchaithram/jackfruit-images)
 - [kaggle mango](https://www.kaggle.com/kiwi946/mango-competition)
 - [Colab](https://research.google.com/colaboratory/)
 
-
-[Back To The Top](#read-me-template)
-
----
-
-## Author Info
-
- #Insta
-- [@y_i_shk](https://www.instagram.com/y_i_shk?r=nametag)
-- [@_darshan__suresh_](https://www.instagram.com/_darshan__suresh_?r=nametag)
-- [@es_aar_em](https://www.instagram.com/es_aar_em?r=nametag)
-
- #Github
-- [vaishakh-v](https://github.com/vaishakh-v)
-- [SUDARSAN-RM](https://github.com/SUDARSAN-RM)
-- [darshanchaithram](https://github.com/darshanchaithram)
-
-
-
-[Back To The Top](#read-me-template)
 
