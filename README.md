@@ -73,7 +73,7 @@ The final file, namely '[Final Project](https://github.com/vaishakh-v/ML/blob/ma
 ---
 # How to configure
 - Open the 'Final project.ipynb' in a jupyter notebook.
-- Mount your google drive.
+- Mount the [google drive](https://drive.google.com/drive/u/0/folders/1GTCZ1lGjCFnUursejAOqYLMaFUJhKUt0).
 ---
 # How to run
 - Open the 'Final project.ipynb'
