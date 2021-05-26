@@ -19,9 +19,9 @@ Machine learning for tinkerhub build from home
 # Project Name
 ### ChakGo_Scan
 
-This is a project for Build From Home organized by Tinkerhub.
-This project contains a model developed by deeplearing using tensorflow and keras.
-The model is pretrained to identify between Mangoes and Jackfruit images.The name of the project is Chak(CHAKka)Go(manGO)_Scan.
+ChakGo_Scan is a Machine learning model developed as part of Build From Home organized by Tinkerhub. This project is trained to distinguish between photo of Chakka or Manga ( Jackfruit or Mango). we came up with the name Chak(CHAKka)Go(manGO)_ Scan.We, a bunch of students have used tensorflow and keras for this ML code.
+
+ChakGo_Scan is an easy to use platform for anyone who wants to check whether an image is Chakka or Manga. Simply open the Final_project.ipynb file and upload your picture
 
 ---
 # Team members
@@ -33,7 +33,7 @@ The model is pretrained to identify between Mangoes and Jackfruit images.The nam
 - BFH/recaLYum338MTMIJQ/2021
 ---
 # Link to product walkthrough
-### www.test.com
+### https://drive.google.com/file/d/1LVdnxt5MZytjhrN0yYaHWaewYODOHmN8/view?usp=sharing
 ---
 # How it works
 The project is divided into 3 colab files. The first one, namely 'Image dataset using selenium' is used to generate dateset from the internet and to scrape the images as per our criteria.
@@ -88,5 +88,4 @@ The final file, namely 'Final Project' is where the user tests an image
 - [kaggle jackfruit](https://www.kaggle.com/darshanchaithram/jackfruit-images)
 - [kaggle mango](https://www.kaggle.com/kiwi946/mango-competition)
 - [Colab](https://research.google.com/colaboratory/)
-
 
