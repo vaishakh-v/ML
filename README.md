@@ -1,9 +1,9 @@
-# ChakGo_Scan
+# **ChakGo_Scan**
 Machine learning for tinkerhub build from home
 
 ![image](https://user-images.githubusercontent.com/72149021/119386009-972ff500-bce4-11eb-95b5-292eccbd400a.png)
 
-### Table of Contents
+# Table of Contents
 
 - [Project name](#project-name)
 - [Team members](#team-members)
