@@ -1,1 +1,1 @@
-this folder is for algorithm
+This folder contain models
