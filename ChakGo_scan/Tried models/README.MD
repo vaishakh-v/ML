@@ -1,1 +1,1 @@
-This folder is for hosting the web app
+This folder contains codes and model that we tried
